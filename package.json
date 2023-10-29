@@ -1,0 +1,35 @@
+{
+  "name": "Hydro",
+  "version": "1.0.0",
+  "description": "minimalistic discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "start:dev": "ts-node-dev src/main.ts",
+    "start:prod": "node dist/main.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roflmaybe/Hydro.git"
+  },
+  "author": "rofl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roflmaybe/Hydro/issues"
+  },
+  "homepage": "https://github.com/roflmaybe/Hydro#readme",
+  "dependencies": {
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0",
+    "glob": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/node": "^16.11.6",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  }
+}
