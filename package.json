@@ -1,5 +1,5 @@
 {
-  "name": "Hydro",
+  "name": "hydro",
   "version": "1.0.0",
   "description": "minimalistic discord bot",
   "main": "index.js",
